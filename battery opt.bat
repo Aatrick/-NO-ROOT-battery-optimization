@@ -10,7 +10,7 @@ adb shell device_config put device_idle light_idle_maintenance_min_budget 15000
 adb shell device_config put device_idle light_idle_maintenance_max_budget 30000
 adb shell device_config put device_idle min_light_maintenance_time 5000
 adb shell device_config put device_idle min_deep_maintenance_time 30000
-adb shell device_config put device_idle inactive_to 0
+adb shell device_config put device_idle inactive_to 10000
 adb shell device_config put device_idle sensing_to 0
 adb shell device_config put device_idle locating_to 0
 adb shell device_config put device_idle motion_inactive_to 0
