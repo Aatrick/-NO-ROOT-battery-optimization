@@ -252,27 +252,27 @@ adb shell am set-bg-restriction-level --user 0 com.sec.android.app.soundalive
 adb shell am set-bg-restriction-level --user 0 com.samsung.euicc
 adb shell am set-bg-restriction-level --user 0 com.samsung.internal.systemui.navbar.gestural_no_hint
 adb shell am set-bg-restriction-level --user 0 com.android.printspooler hibernation
-adb shell am set-bg-restriction-level --user 0 com.sec.android.app.qsfastpairoverlay
+adb shell am set-bg-restriction-level --user 0 com.sec.android.app.qsfastpairoverlay hibernation
 adb shell am set-bg-restriction-level --user 0 com.samsung.android.app.smartcapture hibernation
 adb shell am set-bg-restriction-level --user 0 com.skms.android.agent
 adb shell am set-bg-restriction-level --user 0 com.android.systemui.auto_generated_rro_product__
 adb shell am set-bg-restriction-level --user 0 com.samsung.android.ConnectivityOverlay
 adb shell am set-bg-restriction-level --user 0 com.samsung.themedesigner.MT9084f1d5.dark.home hibernation
-adb shell am set-bg-restriction-level --user 0 com.samsung.klmsagent
-adb shell am set-bg-restriction-level --user 0 com.samsung.android.mdecservice
+adb shell am set-bg-restriction-level --user 0 com.samsung.klmsagent hibernation
+adb shell am set-bg-restriction-level --user 0 com.samsung.android.mdecservice hibernation
 adb shell am set-bg-restriction-level --user 0 com.google.mainline.telemetry
 adb shell am set-bg-restriction-level --user 0 com.samsung.themedesigner.MTc2c9728c.pblack.wallpaper hibernation
 adb shell am set-bg-restriction-level --user 0 com.samsung.android.hdmapp
-adb shell am set-bg-restriction-level --user 0 com.android.dynsystem
+adb shell am set-bg-restriction-level --user 0 com.android.dynsystem hibernation
 adb shell am set-bg-restriction-level --user 0 com.sec.android.app.billing hibernation
 adb shell am set-bg-restriction-level --user 0 com.samsung.android.providers.media restricted_bucket
 adb shell am set-bg-restriction-level --user 0 com.samsung.android.app.dofviewer
 adb shell am set-bg-restriction-level --user 0 com.android.hotspot2.osulogin hibernation
 adb shell am set-bg-restriction-level --user 0 com.samsung.android.kgclient
 adb shell am set-bg-restriction-level --user 0 com.google.android.connectivity.resources
-adb shell am set-bg-restriction-level --user 0 com.sec.android.mimage.photoretouching
+adb shell am set-bg-restriction-level --user 0 com.sec.android.mimage.photoretouching hibernation
 adb shell am set-bg-restriction-level --user 0 com.sec.android.dexsystemui hibernation
 adb shell am set-bg-restriction-level --user 0 com.android.externalstorage
-adb shell am set-bg-restriction-level --user 0 com.samsung.android.gru
+adb shell am set-bg-restriction-level --user 0 com.samsung.android.gru hibernation
 adb shell am set-bg-restriction-level --user 0 com.samsung.android.kmxservice
 adb shell am set-bg-restriction-level --user 0 com.android.server.telecom
