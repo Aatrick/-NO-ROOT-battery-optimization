@@ -9,7 +9,9 @@ Now go into your phone developpers settings, enable the USB debugging setting an
 
 First off it is highly recommended to install the [Greenify](https://play.google.com/store/apps/details?id=com.oasisfeng.greenify) app  and set the apps to hibernate and enable Aggressive the doze and the wake-up tracking
 To set up those two settings you'll have to grant some permissions to greenify via the adb (Android Device Bridge)
+
 ``adb -d shell pm grant com.oasisfeng.greenify android.permission.WRITE_SECURE_SETTINGS``
+
 ``adb -d shell pm grant com.oasisfeng.greenify android.permission.READ_LOGS``
 
 ## doze mode optimization
