@@ -27,12 +27,14 @@ Now simply open the bat file and it should set it all up for you
 ### Revert
 
 to revert the changes entirely type in :
+
 ``adb shell settings delete global device_idle_constants``
 
 ## app battery restrictions
 
 Place the bg-restriction.bat file into the platform tools folder
 Open a command prompt in the platform tools and type
+
 ``adb devices``
 
 You should see a list of devices connected and there should be your phone's serial number in it
@@ -42,13 +44,21 @@ Now simply open the bat file and it should set it all up for you
 ## Bloatware
 
 If you want to maximise the results you can also debloat your phone by using the adb shell command to list all packages
+
 ``adb shell pm list packages`` 
+
 then to disable a package
+
 ``adb shell pm disable-user --user 0 <PACKAGE_NAME>``
+
 or to uninstall completely
+
 ``adb shell pm uninstall --user 0 <PACKAGE_NAME>``
 
+
 if you want to reinstall a package simply type in
+
 ``adb shell cmd package install-existing <PACKAGE_NAME>``
+
 
 You can also go check the [universal-android-debloater](https://github.com/0x192/universal-android-debloater) repo which is an app made to make debloating the easiest possible.
