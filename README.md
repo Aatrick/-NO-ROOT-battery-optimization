@@ -16,6 +16,8 @@ To set up those two settings you'll have to grant some permissions to greenify v
 
 ## doze mode optimization
 
+Doze mode reduces battery consumption by deferring background CPU and network activity for apps when the device is unused for long periods of time. Please do refer to the [official doze and standby page](https://developer.android.com/training/monitoring-device-state/doze-standby) from the android documentation
+
 Place the battery opt.bat file into the platform tools folder
 Open a command prompt in the platform tools and type
 ``adb devices``
