@@ -125,6 +125,9 @@ As said in the Display and auto-sync subcategory, you should set up an android r
 You can also set routines to enable location and depending on your usage, wifi, 4g, bluetooth, nfc, only when launching apps that need them.
 You should also always enable the Power Saving mode and set up a routine to disable power saving in the apps of your chosing.
 
+### Launcher
+
+Additionnaly you can change your default launcher to something like Nova launcher which is lighter and more efficient than most launchers or things like ap15 which barely takes any battery but isn't for everyone.
 
 
 ## doze mode optimization
