@@ -63,6 +63,8 @@ you can get app permission for background usage with
 
 ``adb shell cmd appops get <PACKAGE_NAME>``
 
+To revert the changes simply put allow instead of ignore
+
 
 ## Bloatware
 
