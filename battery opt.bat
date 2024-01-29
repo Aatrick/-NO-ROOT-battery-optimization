@@ -43,4 +43,7 @@ adb shell device_config put device_idle notification_allowlist_duration_ms 20000
 
 adb shell device_config put device_idle pre_idle_factor_long 0 
 adb shell device_config put device_idle pre_idle_factor_short 0
+
+adb shell dumpsys deviceidle enable
+adb shell dumpsys deviceidle force-idle
 pause
