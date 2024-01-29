@@ -24,6 +24,8 @@ You should see a list of devices connected and there should be your phone's seri
 
 Now simply open the bat file and it should set it all up for you
 
+For explanation on what each setting does please do refer to the deviceidle-settings-ex.txt file which is an extract of the source code of the android [DeviceIdleController.java](https://android.googlesource.com/platform/frameworks/base/+/refs/heads/android10-c2f2-release/services/core/java/com/android/server/DeviceIdleController.java)
+
 ### Whitelist
 
 Additionally you can remove packages from the sys-whitelist keeping them away from waking up your phone
