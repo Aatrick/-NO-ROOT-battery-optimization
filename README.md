@@ -24,6 +24,16 @@ You should see a list of devices connected and there should be your phone's seri
 
 Now simply open the bat file and it should set it all up for you
 
+### Whitelist
+
+Additionally you can remove packages from the sys-whitelist keeping them away from waking up your phone
+
+``adb shell dumpsys deviceidle sys-whitelist -<PACKAGE_NAME>``
+
+To add it back simply change the - in a +
+
+Note that you can only put into whitelist apps that were already in
+
 ### Revert
 
 to revert the changes entirely type in :
@@ -40,6 +50,19 @@ Open a command prompt in the platform tools and type
 You should see a list of devices connected and there should be your phone's serial number in it
 
 Now simply open the bat file and it should set it all up for you
+
+Additionally you can remove the background usage permission of an app with 
+
+``adb shell cmd appops set <PACKAGE_NAME> WAKE_LOCK ignore``
+
+and 
+
+``adb shell cmd appops set <PACKAGE_NAME> RUN_ANY_IN_BACKGROUND ignore``
+
+you can get app permission for background usage with
+
+``adb shell cmd appops get <PACKAGE_NAME>``
+
 
 ## Bloatware
 
