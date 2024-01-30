@@ -133,6 +133,9 @@ Additionnaly you can change your default launcher to something like Nova launche
 
 Don't put any restrictions on the watch plug-in app and preferably app, only the samsung wearables has been tested and works normally in deep sleep. Restricting the plug-in would mean not being able to connect to the watch.
 
+On the other hand you can restrict and delete most permissions (like the sensors given they are only used if you use your phone as a step counter) of samsung health, if you don't want it to sync your watch steps in the background.
+
+
 
 ## doze mode optimization
 
