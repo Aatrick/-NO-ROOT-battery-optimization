@@ -115,6 +115,8 @@ You should also preferrably use a pure black wallpaper if you have an OLED/AMOLE
 
 If you have the option, you can also disable the adaptive/high refresh rate setting in the display tab if you want maximum battery savings. Though I'd recommend leaving it on or setting up an android routine to enable the setting automatically when lauching an app where you scroll a lot. You paid for the feature and it's too good of a feature to leave it off.
 
+You can also check out [Galaxy max Hz](https://github.com/tribalfs/GalaxyMaxHzPub) to settle personalized refresh rates on phones that support adaptive refresh rate (samsung is officially supported).
+
 #### Widgets
 
 You should also preferrably don't use any widgets given they are massive battery drainers, even the simple weather widget.
