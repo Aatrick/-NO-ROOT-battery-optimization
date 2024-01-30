@@ -129,6 +129,10 @@ You should also always enable the Power Saving mode and set up a routine to disa
 
 Additionnaly you can change your default launcher to something like Nova launcher which is lighter and more efficient than most launchers or things like ap15 which barely takes any battery but isn't for everyone.
 
+### Smart Watches
+
+Don't put any restrictions on the watch plug-in app and preferably app, only the samsung wearables has been tested and works normally in deep sleep. Restricting the plug-in would mean not being able to connect to the watch.
+
 
 ## doze mode optimization
 
