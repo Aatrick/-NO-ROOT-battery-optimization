@@ -121,6 +121,10 @@ You can also check out [Galaxy max Hz](https://github.com/tribalfs/GalaxyMaxHzPu
 
 You should also preferrably don't use any widgets given they are massive battery drainers, even the simple weather widget.
 
+#### Sensors
+
+You can also disable some sensors like motion and the tactile panel of your screen when off, by disabling wake up the screen by double taping.
+
 #### Routines
 
 As said in the Display and auto-sync subcategory, you should set up an android routine to enable the high refresh rate setting automatically when lauching an app where you scroll a lot and a routine to enable the auto-sync automatically at certain hours for 15 minutes xor when the phone is charging.
@@ -136,6 +140,7 @@ Additionnaly you can change your default launcher to something like Nova launche
 Don't put any restrictions on the watch plug-in app and preferably app, only the samsung wearables has been tested and works normally in deep sleep. Restricting the plug-in would mean not being able to connect to the watch.
 
 On the other hand you can restrict and delete most permissions (like the sensors given they are only used if you use your phone as a step counter) of samsung health, if you don't want it to sync your watch steps in the background.
+
 
 
 
@@ -222,5 +227,15 @@ if you want to reinstall a package simply type in
 
 ``adb shell cmd package install-existing <PACKAGE_NAME>``
 
-
 You can also go check the [universal-android-debloater](https://github.com/0x192/universal-android-debloater) repo which is an app made to make debloating the easiest possible.
+
+
+
+
+## Theoretical maximun
+
+Install the Island app by the same dev as Greenify (oasisfeng) and follow the [installation guide](https://island.oasisfeng.com/)
+Freeze every app you don't use, enable auto freeze by greenify and create an unfreeze and launch shortcut for every app. You can also freeze some unused/useless system processes.
+(for samsung) freeze or disable device care, and in the adb force the power saving mode on (give we don't have it without device care)
+
+``adb shell settings put global low_power 1``
