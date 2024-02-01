@@ -235,7 +235,9 @@ You can also go check the [universal-android-debloater](https://github.com/0x192
 ## Theoretical maximun
 
 Install the Island app by the same dev as Greenify (oasisfeng) and follow the [installation guide](https://island.oasisfeng.com/)
+
 Freeze every app you don't use, enable auto freeze by greenify and create an unfreeze and launch shortcut for every app. You can also freeze some unused/useless system processes.
-(for samsung) freeze or disable device care, and in the adb force the power saving mode on (give we don't have it without device care)
+
+(for samsung) freeze or disable device care, and in the adb force the power saving mode on (given we don't have it without device care)
 
 ``adb shell settings put global low_power 1``
