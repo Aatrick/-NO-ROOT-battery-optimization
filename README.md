@@ -63,6 +63,10 @@ Also note that some apps will have their battery setting greyed out, those will 
 
 Type permission or permission controller in the settings search bar, and remove all unnecessary permissions some apps may have especially notifications (given those apps will have to run in background because of it), body sensors, nearby device scanning and locations (specifically the improved precision setting).
 
+#### Digital well-being 
+
+Disable it by removing the access to usage data.
+
 #### Location
 
 Go into you phone's location settings -> location services and disable Wi-Fi scanning, Bluetooth scanning, location sharing, location history and google location accuracy.
