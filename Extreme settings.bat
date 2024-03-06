@@ -52,7 +52,7 @@ adb shell device_config put app_hibernation app_hibernation_enabled 0
 adb shell settings put system min_refresh_rate 1.0
 adb shell settings put system peak_refresh_rate 96.0
 adb shell settings put secure user_refresh_rate 96.0
-adb shell settings put secure refresh_rate_mode 2
+adb shell settings put secure refresh_rate_mode 1
 
 adb shell settings put global low_power 1
 
