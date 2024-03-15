@@ -24,17 +24,15 @@ adb shell settings put system remote_control 0
 adb shell settings put system send_security_reports 0
 
 
-adb shell settings put global restricted_device_performance 10,10
+adb shell settings put global restricted_device_performance 1,1
 
 adb shell cmd power set-fixed-performance-mode-enabled 0
 adb shell cmd power set-mode 1
 
-adb shell settings put global zram 0 default 
+adb shell settings put global zram 0
 adb shell settings put global zram_enabled 0
 
 adb shell settings put global ram_expand_size 0
-
-adb shell settings put global protect_battery 1
 
 adb shell settings put global master_sync_status 0
 
@@ -42,16 +40,15 @@ adb shell settings put global auto_wifi 0
 
 adb shell settings put global sys_uidcpupower 0
 
-adb shell settings put global app_standby 0
 adb shell settings put global app_standby_enabled 0
 
 adb shell device_config put activity_manager bg_prompt_fgs_on_long_running 1
 adb shell device_config put activity_manager bg_current_drain_auto_restrict_abusive_apps_enabled 1
-adb shell device_config put app_hibernation app_hibernation_enabled 0
+adb shell device_config put app_hibernation app_hibernation_enabled 1
 
-adb shell settings put system min_refresh_rate 1.0
-adb shell settings put system peak_refresh_rate 96.0
-adb shell settings put secure user_refresh_rate 96.0
+adb shell settings put system min_refresh_rate 10.0
+adb shell settings put system peak_refresh_rate 120.0
+adb shell settings put secure user_refresh_rate 120.0
 adb shell settings put secure refresh_rate_mode 1
 
 adb shell settings put global low_power 1
@@ -64,8 +61,8 @@ adb shell settings put global default_restrict_background_data 1
 adb shell settings put global cached_apps_freezer enabled
 adb shell settings put global sem_enhanced_cpu_responsiveness 0
 adb shell settings put global enhanced_processing 0
-adb shell settings put global app_restriction_enabled true
-adb shell settings put global adaptive_battery_management_enabled 0
+adb shell settings put global app_restriction_enabled 1
+adb shell settings put global adaptive_battery_management_enabled 1
 adb shell settings put system intelligent_sleep_mode 0
 adb shell settings put secure adaptive_sleep 0
 adb shell settings put global automatic_power_save_mode 0
@@ -82,7 +79,7 @@ adb shell settings put system screen_auto_brightness_adj 1.0
 
 adb shell settings put global network_recommendations_enabled 0
 adb shell settings put global network_scoring_ui_enabled 0
-adb shell settings put global tether_offload_disabled 0
+adb shell settings put global tether_offload_disabled 1
 adb shell settings put global wifi_power_save 1
 adb shell settings put global mobile_data_always_on 0
 adb shell settings put global ble_scan_always_enabled 0
@@ -131,9 +128,17 @@ adb shell settings put system persist.sys_emc_mode power_saving
 adb shell settings put system cpu_max_speed 0
 adb shell settings put system speed_mode 0
 
-adb shell settings put global persist.hwui.profile 0
-adb shell settings put global boost_cpu 0
-adb shell settings put global sys.gpu_renderer_enhance_set 0mhz
-
 adb shell settings put global airplane_mode_on 1
 adb shell settings put global wfc_ims_mode 2
+adb shell settings put global sem_low_heat_mode 1
+
+adb shell settings put global ro.config.low_ram 1
+
+adb shell settings put global activity_manager_constants "max_cached_processes=0,background_settle_time=60000,fgservice_min_shown_time=2000,fgservice_min_report_time=3000,fgservice_screen_on_before_time=1000,fgservice_screen_on_after_time=5000,content_provider_retain_time=20000,gc_timeout=5000,gc_min_interval=60000,full_pss_min_interval=1200000,full_pss_lowered_interval=300000,power_check_interval=300000,power_check_max_cpu_1=1,power_check_max_cpu_2=1,power_check_max_cpu_3=1,power_check_max_cpu_4=1,service_usage_interaction_time=1800000,usage_stats_interaction_interval=7200000,service_restart_duration=1000,service_reset_run_duration=60000,service_restart_duration_factor=0,service_min_restart_time_between=10000,service_max_inactivity=1800000,service_bg_start_timeout=15000,CUR_MAX_CACHED_PROCESSES=0,CUR_MAX_EMPTY_PROCESSES=0,CUR_TRIM_EMPTY_PROCESSES=0,CUR_TRIM_CACHED_PROCESSES=0"
+
+adb shell settings put global battery_saver_device_specific_constants "cpufreq-i=0/400 1/400 2/400 3/400 4/400 5/400 6/400 7/400,cpufreq-n=0/400 1/400 2/400 3/400 4/400 5/400 6/400 7/400"
+
+adb shell settings put global job_scheduler_quota_controller_constants "max_job_count_working=1,max_job_count_rare=0"
+
+adb shell settings put global forced_app_standby_enabled 1
+adb shell settings put global forced_app_standby_for_small_battery_enabled 1
