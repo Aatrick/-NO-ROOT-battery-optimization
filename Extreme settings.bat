@@ -132,7 +132,6 @@ adb shell settings put global airplane_mode_on 1
 adb shell settings put global wfc_ims_mode 2
 adb shell settings put global sem_low_heat_mode 1
 
-adb shell settings put global persist.hwui.profile 1
 adb shell settings put global boost_cpu 0
 adb shell settings put global sys.gpu_renderer_enhance_set 0mhz
 
