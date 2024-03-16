@@ -132,13 +132,13 @@ adb shell settings put global airplane_mode_on 1
 adb shell settings put global wfc_ims_mode 2
 adb shell settings put global sem_low_heat_mode 1
 
+adb shell settings put global persist.hwui.profile 1
+adb shell settings put global boost_cpu 0
+adb shell settings put global sys.gpu_renderer_enhance_set 0mhz
+
+
 adb shell settings put global ro.config.low_ram 1
 
-adb shell settings put global activity_manager_constants "max_cached_processes=0,background_settle_time=60000,fgservice_min_shown_time=2000,fgservice_min_report_time=3000,fgservice_screen_on_before_time=1000,fgservice_screen_on_after_time=5000,content_provider_retain_time=20000,gc_timeout=5000,gc_min_interval=60000,full_pss_min_interval=1200000,full_pss_lowered_interval=300000,power_check_interval=300000,power_check_max_cpu_1=1,power_check_max_cpu_2=1,power_check_max_cpu_3=1,power_check_max_cpu_4=1,service_usage_interaction_time=1800000,usage_stats_interaction_interval=7200000,service_restart_duration=1000,service_reset_run_duration=60000,service_restart_duration_factor=0,service_min_restart_time_between=10000,service_max_inactivity=1800000,service_bg_start_timeout=15000,CUR_MAX_CACHED_PROCESSES=0,CUR_MAX_EMPTY_PROCESSES=0,CUR_TRIM_EMPTY_PROCESSES=0,CUR_TRIM_CACHED_PROCESSES=0"
-
-adb shell settings put global battery_saver_device_specific_constants "cpufreq-i=0/400 1/400 2/400 3/400 4/400 5/400 6/400 7/400,cpufreq-n=0/400 1/400 2/400 3/400 4/400 5/400 6/400 7/400"
+adb shell settings put global activity_manager_constants "max_cached_processes=0"
 
 adb shell settings put global job_scheduler_quota_controller_constants "max_job_count_working=1,max_job_count_rare=0"
-
-adb shell settings put global forced_app_standby_enabled 1
-adb shell settings put global forced_app_standby_for_small_battery_enabled 1
