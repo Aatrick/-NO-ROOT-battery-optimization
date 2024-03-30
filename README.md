@@ -38,7 +38,7 @@ Go into your phone's developper settings and enable the suspend execution for ca
 
 Additionally you can enable the don't keep activities setting located in your phone's developper settings. Do note that will destroy every activity the moment you leave it, meaning you'll to have to disable it when doing things in between apps, like connecting to accounts using your phone's browser and authentificator app.
 
-#### RAM+ (samsung only)
+#### RAM+ 
 
 If the setting exists, disable the RAM+ setting that is located in the device care tab. This setting permits your phone to use it's storage as extra RAM, this setting is useless for most users given, you need to be constantly at max usage of your phone's RAM for it to be useful. Disable it to save some battery.
 
