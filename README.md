@@ -246,3 +246,4 @@ Freeze every app you don't use, enable auto freeze by greenify and create an unf
 by launching the power-saving.bat and settings.bat files.
 
 
+### If you came this far, thanks a lot and starring this repository would be really helpful
