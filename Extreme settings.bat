@@ -1,5 +1,4 @@
-adb shell wm size 720x1560
-adb shell wm density 280
+
 
 adb shell dumpsys deviceidle force-idle
 
